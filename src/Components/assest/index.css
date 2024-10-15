@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p {
+    line-height: 2;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+/* .menu-items{
+    width: 40%;
+    height: 100%;
+    background-color:#ffffff;
+    position: absolute;
+    height: 400px;
+    top: 12%;
+    right: 0 !important;
+
+}
+
+.menu-items li{
+    margin-block: .5rem;
+    line-height: 2;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #cdcdcd;
+     height:4rem !important;
+     margin-inline: 2rem !important;
+     width: 80%;
+} */
+.contactDetail{
+    background-color: rgba( 0 , 0, 0, .1);
+}
+  .swiper-button-prev , .swiper-button-next{
+    color: #e7c60c;
+    
+  }
+
+  .swiper-button-prev::after , .swiper-button-next::after{
+    font-size: 3rem !important;
+  }
+
+   /* faqs  */
+    
+   .accordion-item {
+    border: none; 
+  }
+  
+  .accordion-button {
+    font-weight: 500;
+    background-color: transparent; 
+    padding: 1rem; 
+    color: #000 !important ;
+    font-size: 1.3rem !important;
+  }
+  
+  .accordion-button:hover,
+  .accordion-button:focus {
+    box-shadow: none; 
+  }
+  
+  .accordion-panel {
+    background-color: #f8e992; 
+    padding: 1rem; 
+    padding: 3rem !important;
+    font-size: 1.3rem !important;
+  }
+  

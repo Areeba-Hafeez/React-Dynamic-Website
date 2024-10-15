@@ -1,0 +1,63 @@
+
+/* CSS */
+.mainBtn {
+  --b: 3px;  
+  --s: .45em; 
+  --color: #373B44;
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+ width: 50% !important;
+  font-weight: 600 !important;
+  border: 0;
+  font-size: 1rem;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.mainBtn:hover,
+.mainBtn:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.mainBtn:active {
+  background: var(--color);
+  color: #fff;
+}
+
+ @media(max-width :790px){
+
+  .mainBtn{
+    width: 80% !important;
+    font-size: 1rem !important;
+  }
+ }
+ @media (max-width: 590px) {
+  
+  .mainBtn{
+    width: 80% !important;
+    font-size: 1rem !important;
+  }
+ }
+ @media(max-width:575px){
+  .mainBtn{
+    width: 40% !important;
+    font-size: 1rem !important;
+  }
+ }
+ @media(max-width:476px){
+  .mainBtn{
+    width: 70% !important;
+   
+  }
+ }

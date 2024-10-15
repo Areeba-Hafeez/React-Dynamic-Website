@@ -1,0 +1,102 @@
+.footer {
+    width: 100%;
+    background-image:  linear-gradient(rgba( 0, 0, 0, .1) , rgba( 0, 0, 0, .1)) , url('../assest/bg2.png');
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #130f40;
+    font-weight: 600;
+   
+}
+
+.text {
+    color: #130f40;
+    font-size: 15px; 
+    font-weight: 500;
+    display: block;
+}
+.lowerText{
+    font-size: 10px !important;
+}
+.cItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cItem svg {
+    flex-shrink: 0;
+    font-size: 19px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.bottomBar {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bottomBarContent {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+}
+
+.bottomBarContent .text {
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.paymentImg {
+    height: 40px;
+}
+
+@media(max-width: 930px){
+    .title {
+      
+        font-size: 19px;
+        color: #130f40;
+     
+    }
+}
+@media (max-width: 768px) {
+
+    .title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 16px; 
+    }
+
+  
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 12px; 
+    }
+
+    .paymentImg {
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 12px; 
+    }
+}

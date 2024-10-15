@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --bg-pink-color: #D7385E;
+  --bg-blue-color: #130f40;
+  --complementary-orange: #f2a541;
+}
+
+
+.active {
+  border-bottom: 4px solid;
+  transition: all .2s ease var(--bg-green-color);
+}
+
+.menuIcon {
+  display: none !important;
+}
+
+@media (max-width:900px) {
+  .menuIcon {
+    display: block !important;
+  }
+
+  .menu {
+    display: none !important;
+  }
+
+}
+
+.sticky_scroll_navbar {
+  position: sticky;
+  top: 0;
+  transform: translateY(-9vh);
+  animation: stickyHeader .3s ease forwards;
+  background-color: #fcfcfc;
+}
+
+@keyframes stickyHeader {
+  0% {
+    transform: translateY(-8vh);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Contact  */

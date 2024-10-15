@@ -1,0 +1,83 @@
+
+@media( max-width:1047px){
+  .contactDetail{
+    width: 160px !important;
+  }
+}
+ @media (max-width:768px) {
+   /* nav icons  */
+   .navIcons {
+     width: 20px !important;
+     height: 20px !important;
+   };
+   
+ }
+
+ /* 560px  */
+
+ @media (max-width: 560px) {
+   .bannerText {
+     font-size: 1.2rem !important;
+   }
+   .inputBanner {
+     width: 300px !important;
+     height: 39px !important;
+   }
+ }
+
+@media (max-width: 887px){
+  .contactDetail{
+    width: 100% !important;
+  }
+}
+
+ @media (max-width:460px) {
+   .bannerText {
+     font-size: 1rem !important;
+   }
+
+   .inputBanner {
+     width: 340px !important;
+     height: 34px !important;
+   }
+ }
+
+ @media (max-width:394px) {
+   .bannerText {
+     font-size: .9rem !important;
+   }
+
+   .inputBanner {
+     width: 340px !important;
+     height: 34px !important;
+   }
+ }
+
+ @media (max-width:360px) {
+   .bannerText {
+     font-size: .8rem !important;
+   }
+
+   .inputBanner {
+     width: 340px !important;
+     height: 34px !important;
+     margin: .1rem 0 !important;
+     font-size: 16px !important;
+   }
+ }
+ /* 399px  */
+ @media(max-width:399px){
+  .logo{
+    width: 130px    !important;
+    height: 40px !important;
+  }
+  .navBagdes{
+    height: 20px;
+    width: 20px;
+ 
+  }
+  .navLogin{
+    height: 40px !important;
+    width: 100px !important;
+  }
+ }

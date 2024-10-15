@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition:  all ease .2s;
+    
+}
+body{
+  font-family: Phopins , Montserrat;
+}
+
+.dropdown-item{
+  margin-block: .5rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#dropdownSotingItems{
+  padding: 0 !important;
+  background-color: #eee;
+}
+#dropdownSorting .dropdown-item{
+  width: 10px !important;
+}
+
+.dropdown-item a.active{
+   color: #130f40 !important;
+}
+.dropdown-item:hover{
+  background-color: #fff !important;
+  color: #130f40;
+}
+.newslaterSection{
+  background-image:  linear-gradient(rgba( 0, 0, 0, .1) , rgba( 0, 0, 0, .1)) , url('../assest/bg.png');
+
+}
+
+ /* Style for the Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px; /* Width of the button */
+  height: 40px; /* Height of the button */
+  background-color: rgba(0, 0, 0, 0.5); /* Background color */
+  color: #fff; /* Text color */
+  border-radius: 50%; /* Rounded buttons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  z-index: 10; /* Make sure they are on top of the slides */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+/* Specific styling for next button */
+.swiper-button-next {
+  right: 10px; /* Position from the right */
+}
+
+/* Specific styling for prev button */
+.swiper-button-prev {
+  left: 10px; /* Position from the left */
+}
+
+/* Optional: Hide default Swiper arrows */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none; /* Hide the default arrow icons */
+}
+
+/* Optional: Add custom icons */
+.swiper-button-next::before {
+  content: '→'; /* Customize with an icon */
+  font-size: 20px; /* Font size for the icon */
+}
+
+.swiper-button-prev::before {
+  content: '←'; /* Customize with an icon */
+  font-size: 20px; /* Font size for the icon */
+}
+
+
+@media(max-width: 790px){
+  .news-letter{
+     width: 140px !important;
+  }
+}
+
+@media(max-width: 790px){
+  .news-letter{
+     width: 140px !important;
+  }
+}
+
+@media(max-width: 1043px) {
+  .dropdown-item{
+        width:  260px !important;
+        margin-block: 4% !important;
+        border-radius: 6px;
+        margin-left: 0 !important;
+       
+     } 
+     
+     
+}

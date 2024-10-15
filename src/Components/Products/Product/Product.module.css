@@ -1,0 +1,82 @@
+.colMd {
+    margin: 0.2rem !important;
+    text-align: center;
+    transition: transform 0.3s;
+    margin-bottom: 5% !important;
+  }
+
+  .star {
+    font-size: 20px;
+    color: #e4bb07;
+    display: flex;
+    justify-content: center;
+    margin: 0.4rem;
+  }
+    .colMd:hover {
+    transform: scale(1.05);
+  }
+  
+  .imageContainer {
+    width: 100%;
+     height: 300px  !important;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .category {
+    font-size: 19px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-block: 1rem;
+  }
+  
+    
+  .price {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ff0000;
+  }
+  .imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .ratingWrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .bgCustomYellow {
+    color: #FFD700; /* Adjust the color as needed */
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+ 
+  
+.heading{
+font-weight: 720 !important;
+margin-bottom: 0 !important;
+margin-top: 4%;
+color : #000 !important;
+ }
+ .heading::after{
+  content: "";
+  display: block;
+  margin-top: 3px;
+  width: 60px;
+  height: 4px;
+  background-color: #e7c60c;
+  margin-bottom: 4%;
+
+}
+.errorMsg{
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  margin-block:2%;
+}
+  
+

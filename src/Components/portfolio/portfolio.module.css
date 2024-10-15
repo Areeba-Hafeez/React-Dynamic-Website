@@ -1,0 +1,178 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.cardTitle{
+  font-size: 15px;
+  font-weight: 700 !important;
+}
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 350px !important;
+  height: 400px !important;
+  background-color: #eee;
+  margin:2% !important;
+  padding: 0 !important;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper{
+  background-color: #eeee !important;
+   height: min-content !important;
+   margin: 1% !important;
+   padding: 10px !important;
+   display: flex;
+   justify-content:space-evenly !important;
+   align-items: center;
+ 
+}
+
+.cardText{
+  font-size: 12px !important;
+}
+.textBox{
+  border: 1px solid #cdcdcd;
+  box-shadow: 0px 2px 6px rgba( 0 , 0, 0, 100%);
+  padding: 10px !important;
+  width:360px !important;
+ height: min-content;
+}
+.imagesWrapper{
+  box-shadow: 0px 2px 6px rgba( 0 , 0, 0, 100%);
+  height:  300px !important;
+  width: 350px !important;
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  padding:  0 !important;
+}
+.imagesWrapper img {
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  height: 100% !important;
+  object-fit: cover;
+  width: 100% !important;
+  margin: 0 !important;
+  
+}
+.heading {
+  font-size: 3vw !important;
+  font-weight: 700;
+  margin: 2% 0;
+  color: #333;
+  text-align: center;
+}
+.cardImgTop{
+  height: 70%;
+  width: 100% !important;
+  margin-bottom: 3% !important;
+}
+.heading::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: 6px;
+  background-color: #e7c60c;
+}
+
+.text {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 25px auto;
+  border-radius: 15px;
+}
+
+.potfolioRow {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1% !important;
+  height: min-content !important;
+
+}
+
+@media(max-width:856px){
+
+  .textBox{
+    width: 48vw !important;
+  }
+
+
+}
+@media(max-width:808px){
+  .card {
+    width: 400px !important;
+    height: 400px !important;
+  
+  }
+}
+
+@media(max-width:759px){
+ 
+  .textBox{
+    padding: 4px !important;
+    width:370px !important;
+   height: 300px;
+   padding-left: 1rem !important;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+
+}
+@media(max-width:646px){
+  .textBox{
+      width: 260px !important;
+      height: 400px;
+    
+  }
+  .header{
+  font-size: 20px !important;
+  }
+  
+
+}
+@media(max-width:500px){
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.textBox{
+  width:90vw !important;
+  height: 400px;
+  box-shadow: none;
+  border: none !important;
+}
+
+}
+@media (max-width: 726px) {
+
+
+}
+.paragraph{
+  font-size: 14px !important;
+  color:#130f40;
+  
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 6vw !important; 
+  }
+
+  .text h1 {
+    font-size: 22px;
+  }
+
+
+}
